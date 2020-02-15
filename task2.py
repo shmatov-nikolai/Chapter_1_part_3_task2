@@ -67,17 +67,17 @@ def game_with_comp():
         elif player == 1: 
             if vibor_comp == 2:
                 i+=1
-                print(f"Вы выйграли, ваш счет {i}:{j}")
+                print(f"Вы выйграли, ваш счет {i}:{j}, {hodi[player]} vs {hodi[vibor_comp]}")
             elif vibor_comp == 3:
                 j+=1
-                print(f"Вы проиграли, ваш счет {i}:{j}")
+                print(f"Вы проиграли, ваш счет {i}:{j}, {hodi[player]} vs {hodi[vibor_comp]}")
         elif player == 2:
             if vibor_comp == 3:
                 i+=1
-                print(f"Вы выйграли, ваш счет {i}:{j}")
+                print(f"Вы выйграли, ваш счет {i}:{j}, {hodi[player]} vs {hodi[vibor_comp]}")
             elif vibor_comp == 1:
                 j+=1
-                print(f"Вы проиграли, ваш счет {i}:{j}")
+                print(f"Вы проиграли, ваш счет {i}:{j}, {hodi[player]} vs {hodi[vibor_comp]}")
         elif player == 3:
             if vibor_comp == 1:
                 i+=1
@@ -136,28 +136,24 @@ def game_with_player():
         elif player == 1: 
             if player_2 == 2:
                 i+=1
-                print(f"игрок 1 выйграл, счет {i}:{j}")
+                print(f"игрок 1 выйграл, счет {i}:{j}, {hodi[player]} vs {hodi[player_2]}")
             elif player_2 == 3:
                 j+=1
-                print(f"игрок 2 выйрал, счет {i}:{j}")
+                print(f"игрок 2 выйрал, счет {i}:{j}, {hodi[player]} vs {hodi[player_2]}")
         elif player == 2:
             if player_2 == 3:
                 i+=1
-                print(f"игрок 1 выйграл, счет {i}:{j}")
+                print(f"игрок 1 выйграл, счет {i}:{j}, {hodi[player]} vs {hodi[player_2]}")
             elif player_2 == 1:
                 j+=1
-                print(f"игрок 2 выйрал, счет {i}:{j}")
+                print(f"игрок 2 выйрал, счет {i}:{j}, {hodi[player]} vs {hodi[player_2]}")
         elif player == 3:
             if player_2 == 1:
                 i+=1
-                print(f"игрок 1 выйграл, счет {i}:{j}")
+                print(f"игрок 1 выйграл, счет {i}:{j}, {hodi[player]} vs {hodi[player_2]}")
             elif player_2 == 2:
                 j+=1
-                print(f"игрок 2 выйрал, счет {i}:{j}")
-
-
-
-
+                print(f"игрок 2 выйрал, счет {i}:{j}, {hodi[player]} vs {hodi[player_2]}")
 
 
 vibor_mod = int(input(''' 
