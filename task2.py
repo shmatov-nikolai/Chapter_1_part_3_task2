@@ -81,10 +81,10 @@ def game_with_comp():
         elif player == 3:
             if vibor_comp == 1:
                 i+=1
-                print(f"Вы выйграли, ваш счет {i}:{j}")
+                print(f"Вы выйграли, ваш счет {i}:{j}, {hodi[player]} vs {hodi[vibor_comp]}")
             elif vibor_comp == 2:
                 j+=1
-                print(f"Вы проиграли, ваш счет {i}:{j}")
+                print(f"Вы проиграли, ваш счет {i}:{j}, {hodi[player]} vs {hodi[vibor_comp]}")
 
 
 
